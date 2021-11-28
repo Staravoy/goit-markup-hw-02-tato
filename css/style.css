@@ -1,0 +1,156 @@
+/* Загальні налуштування для всієї сторінки */
+:root {
+  --text-color: #212121;
+  --hover-color: #2196f3;
+}
+
+li {
+  list-style-type: none;
+}
+
+body {
+  font-family: Roboto;
+  background-color: #e5e5e5;
+  color: var(--text-color);
+}
+
+/* a:link {
+  text-decoration: none;
+  color: var(--text-color);
+}
+
+a:visited {
+  text-decoration: none;
+  color: var(--text-color);
+}
+
+a:hover {
+  color: var(--hover-color);
+} */
+
+/* header для всіх сторінок */
+.logo {
+  text-decoration: none;
+  font-family: Raleway;
+  font-size: 26px;
+  font-weight: bold;
+  line-height: 1, 1923;
+  color: var(--text-color);
+}
+
+.logo:hover {
+  color: var(--hover-color);
+}
+
+.nav-link {
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  color: var(--text-color);
+}
+
+.nav-link:hover {
+  color: var(--hover-color);
+}
+
+.contacts-contact {
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  color: var(--text-color);
+}
+
+.contacts-contact:hover {
+  color: var(--hover-color);
+}
+
+/* section baner */
+.baner-title {
+  color: #ffffff;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 60px;
+}
+
+.baner-button {
+  background-color: #2196f3;
+  color: #ffffff;
+  width: 136px;
+  height: 30px;
+}
+
+/* section skills */
+.none {
+  display: none;
+}
+.skills-title {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  color: var(--text-color-color);
+}
+
+.skills-text {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  color: #757575;
+}
+
+/* section what-we-do */
+.what-we-do-title {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
+}
+
+/* section we */
+.we-name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: var(--text-color);
+}
+
+.we-proffesion {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  color: #757575;
+}
+
+/* footer для всіх сторінок*/
+.address-post {
+  text-decoration: none;
+  font-size: 14px;
+  line-height: 24px;
+  color: #ffffff;
+}
+
+.address-email .address-tel {
+  text-decoration: none;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  color: #ffffff;
+}
+
+/* СТОРІНКА PORTFOLIO */
+/* section buttons */
+
+/* section exemples*/
+.exemples-title {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 36px;
+  color: var(--text-color);
+}
+
+.exempel-type {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 30px;
+  color: #757575;
+}
