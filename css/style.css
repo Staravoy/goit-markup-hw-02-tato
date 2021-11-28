@@ -5,6 +5,7 @@
   --second-color: #757575;
   --background-color: #2f303a;
   --wait: #ffffff;
+  --buttom-color: #f5f4fa;
 }
 
 li {
@@ -176,18 +177,32 @@ footer {
 
 /* СТОРІНКА PORTFOLIO */
 /* section buttons */
+.buttons-button {
+  background-color: var(--buttom-color);
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  letter-spacing: 0.03em;
+}
 
+.buttons-button:hover {
+  background-color: var(--hover-color);
+}
 /* section exemples*/
 .exemples-title {
-  font-weight: bold;
+  font-weight: 700;
   font-size: 18px;
-  line-height: 36px;
+  line-height: 2;
+  letter-spacing: 0.06em;
   color: var(--text-color);
 }
 
 .exempel-type {
   font-weight: normal;
   font-size: 16px;
-  line-height: 30px;
-  color: #757575;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+  color: var(--second-color);
 }
