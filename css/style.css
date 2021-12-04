@@ -16,6 +16,7 @@ body {
   font-family: Roboto;
   background-color: #e5e5e5;
   color: var(--text-color);
+  margin: 0;
 }
 
 /* header */
@@ -38,6 +39,10 @@ body {
   color: var(--hover-color);
 }
 
+.logo:focus {
+  color: var(--hover-color);
+}
+
 .nav-link {
   text-decoration: none;
   font-weight: 500;
@@ -48,6 +53,10 @@ body {
 }
 
 .nav-link:hover {
+  color: var(--hover-color);
+}
+
+.nav-link:focus {
   color: var(--hover-color);
 }
 
@@ -65,6 +74,10 @@ body {
 }
 
 .contacts-contact:hover {
+  color: var(--hover-color);
+}
+
+.contacts-contact:focus {
   color: var(--hover-color);
 }
 
@@ -91,6 +104,14 @@ body {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   cursor: pointer;
+}
+
+.baner-button:hover {
+  color: var(--second-color);
+}
+
+.baner-button:focus {
+  color: var(--second-color);
 }
 
 /* section skills */
@@ -166,6 +187,7 @@ footer {
 }
 
 .address-post {
+  font-style: normal;
   text-decoration: none;
   font-size: 14px;
   line-height: 1.71;
@@ -175,6 +197,7 @@ footer {
 
 .address-email,
 .address-tel {
+  font-style: normal;
   text-decoration: none;
   font-weight: normal;
   font-size: 14px;
@@ -186,6 +209,12 @@ footer {
 .address-email:hover,
 .address-tel:hover,
 .address-post:hover {
+  color: var(--hover-color);
+}
+
+.address-email:focus,
+.address-tel:focus,
+.address-post:focus {
   color: var(--hover-color);
 }
 
@@ -204,6 +233,10 @@ footer {
 
 .buttons-button:hover {
   background-color: var(--hover-color);
+}
+
+.buttons-button:focus {
+  color: var(--hover-color);
 }
 /* section exemples*/
 .exemples-title {
